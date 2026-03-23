@@ -55,7 +55,7 @@ function Timeline() {
                     </div>
 
                     <div className=''>
-                       <img src='../images/sparkling.png' alt='sparkling'></img>
+                       <img src='../images/sparkling.png' alt='sparkling' loading="lazy"></img>
                     </div>
                 </div>
                 <div className='mt-10'>

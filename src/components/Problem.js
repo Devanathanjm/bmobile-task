@@ -8,7 +8,7 @@ const Problem = () => {
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-10'>
                     <div>
                         <a href="#" className="flex flex-col items-center bg-neutral-primary-soft p-6 border-2 border-[#23AE31] rounded-[10px] shadow-xs md:flex-row md:max-w-xl ">
-                            <img className="object-cover w-full rounded-base h-auto md:h-[140] md:w-48 mb-4 md:mb-0" src="../images/problem/case.png" alt="case" />
+                            <img className="object-cover w-full rounded-base h-auto md:h-[140] md:w-48 mb-4 md:mb-0" src="../images/problem/case.png" loading="lazy" alt="case" />
                             <div className="flex flex-col justify-between md:p-4 leading-normal">
                                 <p className="mb-6 text-[18px] text-black">“Case vs. each” mismatches: wrong picks, short trucks, odd credits.</p>
                             </div>
@@ -16,7 +16,7 @@ const Problem = () => {
                     </div>
                     <div>
                         <a href="#" className="flex flex-col items-center bg-neutral-primary-soft p-6 border-2 border-[#23AE31] rounded-[10px] shadow-xs  md:flex-row md:max-w-xl">
-                            <img className="object-cover w-full rounded-base h-64 md:h-auto md:w-48 mb-4 md:mb-0" src="../images/problem/book.png" alt="book" />
+                            <img className="object-cover w-full rounded-base h-64 md:h-auto md:w-48 mb-4 md:mb-0" src="../images/problem/book.png" alt="book" loading="lazy" />
                             <div className="flex flex-col justify-between md:p-4 leading-normal">
 
                                 <p className="mb-6 text-[18px] text-black">Book vs. shelf gaps: cycle counts balloon and month-end turns manual.</p>
@@ -26,7 +26,7 @@ const Problem = () => {
 
                     <div>
                         <a href="#" className="flex flex-col items-center bg-neutral-primary-soft p-6 border-2 border-[#23AE31] rounded-[10px] shadow-xs md:flex-row md:max-w-xl">
-                            <img className="object-cover w-full rounded-base h-64 md:h-auto md:w-48 mb-4 md:mb-0" src="../images/problem/duplicate.png" alt="duplicate" />
+                            <img className="object-cover w-full rounded-base h-64 md:h-auto md:w-48 mb-4 md:mb-0" src="../images/problem/duplicate.png" alt="duplicate"  loading="lazy"/>
                             <div className="flex flex-col justify-between md:p-4 leading-normal">
 
                                 <p className="mb-6 text-[18px] text-black">Duplicate SKUs for the same item in different packs: confusion and double counting.</p>
@@ -36,7 +36,7 @@ const Problem = () => {
 
                     <div>
                         <a href="#" className="flex flex-col items-center bg-neutral-primary-soft p-6 border-2 border-[#23AE31] rounded-[10px] shadow-xs  md:flex-row md:max-w-xl">
-                            <img className="object-cover w-full rounded-base h-64 md:h-auto md:w-48 mb-4 md:mb-0" src="../images/problem/slower.png" alt="slower" />
+                            <img className="object-cover w-full rounded-base h-64 md:h-auto md:w-48 mb-4 md:mb-0" src="../images/problem/slower.png" alt="slower"  loading="lazy"/>
                             <div className="flex flex-col justify-between md:p-4 leading-normal">
 
                                 <p className="mb-6 text-[18px] text-black">Slower ops: people doing math at the dock, on the picker screen, and on the route sheet</p>
@@ -49,7 +49,7 @@ const Problem = () => {
                     <p className='text-[20px] md:text-[28px]'>Multi-UOM tracking is the proven fix. It sets a base unit, links related units with conversions, and lets you choose the default unit for buying, stocking, picking, and selling. </p>
                 </div>
                 <div>
-                    <img src="../images/problem/multi-uom-tracking.png" className='w-[1094] mx-auto text-center'></img>
+                    <img src="../images/problem/multi-uom-tracking.png" loading="lazy" className='w-[1094] mx-auto text-center'></img>
                 </div>
             </div>
         </section>

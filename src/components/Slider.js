@@ -11,36 +11,36 @@ const Slider = () => {
         </div>
         <Marquee className='mb-8 md:mb-14 cursor-pointer' direction='right' pauseOnHover>
           <div className='ml-11 overflow-hidden'> 
-            <img src="../images/slider/mill.svg" alt='mill creek' className='transition-transform duration-300 hover:scale-105 w-[150px] md:w-auto'></img>
+            <img src="../images/slider/mill.svg" alt='mill creek' className='transition-transform duration-300 hover:scale-105 w-[150px] md:w-auto' loading="lazy"></img>
           </div>
           <div className='ml-11 overflow-hidden'>
-            <img src="../images/slider/old.svg" alt='old vinema' className='transition-transform duration-300 hover:scale-105 w-[150px] md:w-auto'></img>
+            <img src="../images/slider/old.svg" alt='old vinema' className='transition-transform duration-300 hover:scale-105 w-[150px] md:w-auto' loading="lazy"></img>
           </div>
           <div className='ml-11 overflow-hidden'>
-            <img src="../images/slider/rodriguez.svg" alt='rodriguez' className='transition-transform duration-300 hover:scale-105 w-[150px] md:w-auto'></img>
+            <img src="../images/slider/rodriguez.svg" alt='rodriguez' className='transition-transform duration-300 hover:scale-105 w-[150px] md:w-auto' loading="lazy"></img>
           </div>
           <div className='ml-11 overflow-hidden'>
-            <img src="../images/slider/gabriels.svg" alt='gabriels' className='transition-transform duration-300 hover:scale-105 w-[150px] md:w-auto'></img>
+            <img src="../images/slider/gabriels.svg" alt='gabriels' className='transition-transform duration-300 hover:scale-105 w-[150px] md:w-auto' loading="lazy"></img>
           </div>
            <div className='ml-11 overflow-hidden'>
-            <img src="../images/slider/glacier.svg" alt='glacier' className='transition-transform duration-300 hover:scale-105 w-[150px] md:w-auto'></img>
+            <img src="../images/slider/glacier.svg" alt='glacier' className='transition-transform duration-300 hover:scale-105 w-[150px] md:w-auto' loading="lazy"></img>
           </div>
         </Marquee>
         <Marquee direction='left' pauseOnHover className='cursor-pointer'>
           <div className='ml-11 overflow-hidden'>
-            <img src="../images/slider/lemate.png" alt='lemate' className='transition-transform duration-300 hover:scale-105 w-[150px] md:w-auto'></img>
+            <img src="../images/slider/lemate.png" alt='lemate' className='transition-transform duration-300 hover:scale-105 w-[150px] md:w-auto' loading="lazy"></img>
           </div>
           <div className='ml-11 overflow-hidden'>
-            <img src="../images/slider/yoloice.svg" alt='yoloice' className='transition-transform duration-300 hover:scale-105 w-[150px] md:w-auto'></img>
+            <img src="../images/slider/yoloice.svg" alt='yoloice' className='transition-transform duration-300 hover:scale-105 w-[150px] md:w-auto' loading="lazy"></img>
           </div>
           <div className='ml-11 overflow-hidden'>
-            <img src="../images/slider/sinaloa.svg" alt='sinaloa' className='transition-transform duration-300 hover:scale-105 w-[150px] md:w-auto'></img>
+            <img src="../images/slider/sinaloa.svg" alt='sinaloa' className='transition-transform duration-300 hover:scale-105 w-[150px] md:w-auto' loading="lazy"></img>
           </div>
           <div className='ml-11 overflow-hidden'>
-            <img src="../images/slider/taco.svg" alt='taco' className='transition-transform duration-300 hover:scale-105 w-[150px] md:w-auto'></img>
+            <img src="../images/slider/taco.svg" alt='taco' className='transition-transform duration-300 hover:scale-105 w-[150px] md:w-auto' loading="lazy" ></img>
           </div>
            <div className='ml-11 overflow-hidden'>
-            <img src="../images/slider/kurz.svg" alt='kurz' className='transition-transform duration-300 hover:scale-105 w-[150px] md:w-auto'></img>
+            <img src="../images/slider/kurz.svg" alt='kurz' className='transition-transform duration-300 hover:scale-105 w-[150px] md:w-auto'loading="lazy"></img>
           </div>
         </Marquee>
       </div>

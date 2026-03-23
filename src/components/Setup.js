@@ -10,19 +10,19 @@ const Setup = () => {
                     <div className='bg-[#9AD3FD] p-6 rounded-[20px] mb-7 md:mb-0' data-aos="fade-left"data-aos-delay="200">
                         <p className='text-[20px] md:text-[30px] font-medium mb-1'>Purchase UOM</p>
                         <p className='text-[16px] md:text-[28px] mb-12'>How your vendor ships it</p>
-                        <img src="../images/setup/purchase.png" alt='Purchase UOM'></img>
+                        <img src="../images/setup/purchase.png" alt='Purchase UOM' loading="lazy"></img>
                     </div>
                     {/* Stock UOM */}
                      <div className='bg-[#E1DFFA] p-6 rounded-[20px] mb-7 md:mb-0' data-aos="fade-up"data-aos-delay="200">
                         <p className='text-[20px] md:text-[30px] font-medium mb-1'>Stock UOM</p>
                         <p className='text-[16px] md:text-[28px] mb-5'>How you count it on the shelf</p>
-                        <img src="../images/setup/stock.png" className='h-[90] mx-auto' alt='Stock UOM'></img>
+                        <img src="../images/setup/stock.png" className='h-[90] mx-auto' alt='Stock UOM' loading="lazy"></img>
                     </div>
                     {/* Sell UOM */}
                      <div className='bg-[#128BE1] p-6 rounded-[20px]' data-aos="fade-right"data-aos-delay="200">
                         <p className='text-[20px] md:text-[30px] font-medium mb-1 text-white'>Sell UOM</p>
                         <p className='text-[16px] md:text-[28px] mb-12 text-white'>How customers order it</p>
-                        <img src="../images/setup/sell.png" alt='Sell UOM'></img>
+                        <img src="../images/setup/sell.png" alt='Sell UOM' loading="lazy"></img>
                     </div>
                 </div>
             </div>

@@ -6,7 +6,7 @@ const Uom = () => {
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10'>
         <h2 className='text-[30px] md:text-[50px] font-bold text-[#07F170] max-w-[849] text-center mx-auto mb-6 leading-[132%]' data-aos="fade-right"data-aos-delay="200">The bMobile way: UOM that runs through the whole flow</h2>
         <p className='text-[18px] md:text-[28px] text-white text-center mb-12'>Plain promise: bMobile converts Units of Measure automatically at every step</p>
-        <img src="../images/uom-flow/uom-flow.png" className='w-full'></img>
+        <img src="../images/uom-flow/uom-flow.png" className='w-full' loading="lazy"></img>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-y-1 gap-x-1 mt-28'>
 
           {/* Presale */}

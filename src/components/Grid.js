@@ -18,7 +18,7 @@ function Grid() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <div>
             <div className='mb-5'>
-              <img className="object-cover w-full lg:h-91.25 xl:h-[277px] rounded-base mb-4 md:mb-0" src="../images/bmobile.png" alt="bmobile"   />
+              <img className="object-cover w-full lg:h-91.25 xl:h-[277px] rounded-base mb-4 md:mb-0" src="../images/bmobile.png" alt="bmobile" loading="lazy" />
             </div>
             <div className='flex flex-col lg:flex-row gap-x-2.5 lg:gap-y-0 gap-y-5'>
               <div className='bg-[#0F5045] p-6'>
@@ -31,7 +31,7 @@ function Grid() {
               <div className='bg-[#F5D5B5] p-6'>
                 <p className='text-black text-[20px] md:text-[30px] font-medium mb-4'>Same Demand </p>
                 <p className='text-[16px] md:text-[20px] text-black mb-3 font-medium'>Presale: 3 Packs and 10 Each</p>
-                <img className="object-cover w-full rounded-base mb-4 md:mb-0" src="../images/demand.png" alt="demand" />
+                <img className="object-cover w-full rounded-base mb-4 md:mb-0" src="../images/demand.png" loading="lazy" alt="demand" />
               </div>
             </div>
           </div>

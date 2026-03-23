@@ -7,7 +7,7 @@ function Footer() {
             <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-x-5 mt-5'>
                     <div>
-                        <img src="../images/footer-logo.png" alt="footer logo" className='w-62.5 md:w-auto'></img>
+                        <img src="../images/footer-logo.png" alt="footer logo" loading="lazy" className='w-62.5 md:w-auto'></img>
                     </div>
                 </div>
 
@@ -100,7 +100,7 @@ function Footer() {
                 </div>
 
                 <div className='mx-auto mt-20 md:mb-0 mb-10'>
-                    <img src="../images/footer-grey-logo.png" alt='logo' className='w-62.5 md:w-90  xl:w-auto mx-auto'></img>
+                    <img src="../images/footer-grey-logo.png" loading="lazy" alt='logo' className='w-62.5 md:w-90  xl:w-auto mx-auto'></img>
                 </div>
                 <div className='mt-7 text-white text-center'>
                     <p className='text-[16px] md:text-2xl'>Copyright © bmobileroute 2025. All rights reserved</p>
