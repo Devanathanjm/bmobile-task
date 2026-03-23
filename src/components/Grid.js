@@ -18,7 +18,7 @@ function Grid() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <div>
             <div className='mb-5'>
-              <img className="object-cover w-full lg:h-91.25 xl:h-80 rounded-base mb-4 md:mb-0" src="../images/bmobile.png" alt="bmobile"   />
+              <img className="object-cover w-full lg:h-91.25 xl:h-[277px] rounded-base mb-4 md:mb-0" src="../images/bmobile.png" alt="bmobile"   />
             </div>
             <div className='flex flex-col lg:flex-row gap-x-2.5 lg:gap-y-0 gap-y-5'>
               <div className='bg-[#0F5045] p-6'>
