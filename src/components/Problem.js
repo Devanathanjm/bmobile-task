@@ -46,7 +46,7 @@ const Problem = () => {
                 </div>
 
                 <div className='max-w-[982] mx-auto mt-12 text-center'>
-                    <p className='text-[20px] md:text-[28px]'>Multi-UOM tracking is the proven fix. It sets a base unit, links related units with conversions, and lets you choose the default unit for buying, stocking, picking, and selling. </p>
+                    <p className='text-[20px] md:text-[28px] text-black'>Multi-UOM tracking is the proven fix. It sets a base unit, links related units with conversions, and lets you choose the default unit for buying, stocking, picking, and selling. </p>
                 </div>
                 <div>
                     <img src="../images/problem/multi-uom-tracking.png" loading="lazy" className='w-[1094] mx-auto text-center'></img>
