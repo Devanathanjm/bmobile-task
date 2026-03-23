@@ -268,9 +268,9 @@ export default function WorkflowLoop() {
                   <br />
                   bMobile
                 </h3>
-                <p className="text-[20px] md:text-[30px] text-black mt-1 sm:mt-2">
+                {/* <p className="text-[20px] md:text-[30px] text-black mt-1 sm:mt-2">
                   Every step updates the next
-                </p>
+                </p> */}
               </div>
             </div>
           </foreignObject>
