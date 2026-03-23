@@ -7,7 +7,7 @@ const Problem = () => {
                 <h2 className='text-[30px] md:text-[50px] text-black mb-10 font-semibold text-center' data-aos="fade-up" data-aos-duration="1000">The problem we fix</h2>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-10'>
                     <div>
-                        <a href="#" className="flex flex-col items-center bg-neutral-primary-soft p-6 border-2 border-[#23AE31] rounded-[10px] shadow-xs md:flex-row md:max-w-xl ">
+                        <a href="#" className="flex flex-col items-center bg-neutral-primary-soft p-6 border-2 border-[#23AE31] rounded-[10px] shadow-xs md:flex-row md:max-w-xl transition-transform duration-300 hover:scale-105">
                             <img className="object-cover w-full rounded-base xs:h-auto md:h-[140] md:w-48 mb-4 md:mb-0" src="../images/problem/case.png" loading="lazy" alt="case" />
                             <div className="flex flex-col justify-between md:p-4 leading-normal">
                                 <p className="mb-6 text-[18px] text-black">“Case vs. each” mismatches: wrong picks, short trucks, odd credits.</p>
@@ -15,7 +15,7 @@ const Problem = () => {
                         </a>
                     </div>
                     <div>
-                        <a href="#" className="flex flex-col items-center bg-neutral-primary-soft p-6 border-2 border-[#23AE31] rounded-[10px] shadow-xs  md:flex-row md:max-w-xl">
+                        <a href="#" className="flex flex-col items-center bg-neutral-primary-soft p-6 border-2 border-[#23AE31] rounded-[10px] shadow-xs  md:flex-row md:max-w-xl transition-transform duration-300 hover:scale-105">
                             <img className="object-cover w-full rounded-base h-64 md:h-auto md:w-48 mb-4 md:mb-0" src="../images/problem/book.png" alt="book" loading="lazy" />
                             <div className="flex flex-col justify-between md:p-4 leading-normal">
 
@@ -25,7 +25,7 @@ const Problem = () => {
                     </div>
 
                     <div>
-                        <a href="#" className="flex flex-col items-center bg-neutral-primary-soft p-6 border-2 border-[#23AE31] rounded-[10px] shadow-xs md:flex-row md:max-w-xl">
+                        <a href="#" className="flex flex-col items-center bg-neutral-primary-soft p-6 border-2 border-[#23AE31] rounded-[10px] shadow-xs md:flex-row md:max-w-xl transition-transform duration-300 hover:scale-105">
                             <img className="object-cover w-full rounded-base h-64 md:h-auto md:w-48 mb-4 md:mb-0" src="../images/problem/duplicate.png" alt="duplicate"  loading="lazy"/>
                             <div className="flex flex-col justify-between md:p-4 leading-normal">
 
@@ -35,7 +35,7 @@ const Problem = () => {
                     </div>
 
                     <div>
-                        <a href="#" className="flex flex-col items-center bg-neutral-primary-soft p-6 border-2 border-[#23AE31] rounded-[10px] shadow-xs  md:flex-row md:max-w-xl">
+                        <a href="#" className="flex flex-col items-center bg-neutral-primary-soft transition-transform duration-300 hover:scale-105 p-6 border-2 border-[#23AE31] rounded-[10px] shadow-xs  md:flex-row md:max-w-xl">
                             <img className="object-cover w-full rounded-base h-64 md:h-auto md:w-48 mb-4 md:mb-0" src="../images/problem/slower.png" alt="slower"  loading="lazy"/>
                             <div className="flex flex-col justify-between md:p-4 leading-normal">
 
