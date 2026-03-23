@@ -16,7 +16,7 @@ const Uom = () => {
 
             <h3 className="mb-2 text-[20px] md:text-[28px] font-medium text-black">Presale</h3>
 
-            <p className="mb-3 text-body text-[15px]">A rep enters Case 24 for soda. If another rep adds 10 each, we keep both lines correct.</p>
+            <p className="mb-3 text-black text-[15px]">A rep enters Case 24 for soda. If another rep adds 10 each, we keep both lines correct.</p>
           </a>
 
           {/* Purchase planning  */}
@@ -26,7 +26,7 @@ const Uom = () => {
 
             <h3 className="mb-2 text-[20px] md:text-[28px] font-medium text-black">Purchase planning</h3>
 
-            <p className="mb-3 text-body text-[15px]">Presale becomes a forecasted purchase. We switch to the vendor unit so the PO reads in the pack they accept, for example 1 case or 24 each.</p>
+            <p className="mb-3 text-black text-[15px]">Presale becomes a forecasted purchase. We switch to the vendor unit so the PO reads in the pack they accept, for example 1 case or 24 each.</p>
           </a>
 
           {/* Receiving */}
@@ -36,7 +36,7 @@ const Uom = () => {
 
             <h3 className="mb-2 text-[20px] md:text-[28px] font-medium text-black">Receiving</h3>
 
-            <p className="mb-3 text-body text-[15px]">When goods arrive, quantities land in the stock UOM you chose. If you stock by pack 6, we put it on the shelf as packs.</p>
+            <p className="mb-3 text-black text-[15px]">When goods arrive, quantities land in the stock UOM you chose. If you stock by pack 6, we put it on the shelf as packs.</p>
           </div>
 
           {/* Pick Planner */}
@@ -46,7 +46,7 @@ const Uom = () => {
 
             <h3 className="mb-2 text-[20px] md:text-[28px] font-medium text-black">Pick Planner</h3>
 
-            <p className="mb-3 text-body text-[15px]">All demand is converted into the pick unit and totaled in that unit. The picker sees full casesplus any loose pieces, for example 3 cases and 4 loose, as one clear pick.</p>
+            <p className="mb-3 text-black text-[15px]">All demand is converted into the pick unit and totaled in that unit. The picker sees full casesplus any loose pieces, for example 3 cases and 4 loose, as one clear pick.</p>
           </div>
 
           {/* Pack Planner */}
@@ -56,7 +56,7 @@ const Uom = () => {
 
             <h3 className="mb-2 text-[20px] md:text-[28px] font-medium text-black">Pack Planner</h3>
 
-            <p className="mb-3 text-body text-[15px]">We switch again into the pack UOM that matches cartons or route totes, so packing is clean.</p>
+            <p className="mb-3 text-black text-[15px]">We switch again into the pack UOM that matches cartons or route totes, so packing is clean.</p>
           </div>
           {/* Delivery */}
            <div className="bg-[#DDFFF8] w-full p-8 rounded-base shadow-xs md:rounded-br-[20px] md:rounded-bl-none rounded-br-[20px] rounded-bl-[20px]">
@@ -64,7 +64,7 @@ const Uom = () => {
 
             <h3 className="mb-2 text-[20px] md:text-[28px] font-medium text-black">Delivery</h3>
 
-            <p className="mb-3 text-body text-[15px]">We switch again into the pack UOM that matches cartons or route totes, so packing is clean.</p>
+            <p className="mb-3 text-black text-[15px]">We switch again into the pack UOM that matches cartons or route totes, so packing is clean.</p>
           </div>
         </div>
       </div>
