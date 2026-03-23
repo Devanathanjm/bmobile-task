@@ -8,7 +8,8 @@ function Features() {
                 <div className='grid grid-cols-1 md:grid-cols-4 gap-x-5 mt-15'>
 
                     {/* Accuracy */}
-                    <a className="mb-7 md:mb-0 bg-white w-full p-8 rounded-base shadow-xs rounded-[20px] border-2 border-[#09B054] text-center" data-aos="fade-up" data-aos-duration="1000">
+                    <a className="mb-7 md:mb-0 bg-white w-full p-8 rounded-base shadow-xs rounded-[20px] border-2 border-[#09B054] text-center" 
+         data-aos="zoom-in" data-aos-delay="100">
                         <img src='../images/features/accuracy.svg' className='mb-3 mx-auto' alt='accuracy'></img>
 
                         <h3 className="mb-2 text-[18px] md:text-[28px] font-semibold text-black">Accuracy </h3>
@@ -17,7 +18,8 @@ function Features() {
                     </a>
 
                     {/* Speed */}
-                    <a className="mb-7 md:mb-0 bg-white w-full p-8 rounded-base shadow-xs rounded-[20px] border-2 border-[#09B054] text-center" data-aos="fade-up" data-aos-duration="1000">
+                    <a className="mb-7 md:mb-0 bg-white w-full p-8 rounded-base shadow-xs rounded-[20px] border-2 border-[#09B054] text-center"
+                         data-aos="zoom-in" data-aos-delay="200">
                         <img src='../images/features/speed.svg' className='mb-3 mx-auto' alt='Speed'></img>
 
                         <h3 className="mb-2 text-[18px] md:text-[28px] font-semibold text-black">Speed </h3>
@@ -26,7 +28,8 @@ function Features() {
                     </a>
 
                     {/* Clean purchasing  */}
-                    <a className="mb-7 md:mb-0 bg-white w-full p-8 rounded-base shadow-xs rounded-[20px] border-2 border-[#09B054] text-center" data-aos="fade-down" data-aos-duration="1000">
+                    <a className="mb-7 md:mb-0 bg-white w-full p-8 rounded-base shadow-xs rounded-[20px] border-2 border-[#09B054] text-center" 
+                         data-aos="zoom-in" data-aos-delay="300">
                         <img src='../images/features/purchasing.svg' className='mb-3 mx-auto' alt='Clean purchasing'></img>
 
                         <h3 className="mb-4 text-[18px] md:text-[28px] font-semibold text-black leading-[119%]">Clean purchasing </h3>
@@ -35,7 +38,8 @@ function Features() {
                     </a>
 
                     {/* Shorter cycle counts */}
-                    <a className="bg-white w-full p-8 rounded-base shadow-xs rounded-[20px] border-2 border-[#09B054] text-center" data-aos="fade-down" data-aos-duration="1000">
+                    <a className="bg-white w-full p-8 rounded-base shadow-xs rounded-[20px] border-2 border-[#09B054] text-center"
+                         data-aos="zoom-in" data-aos-delay="400">
                         <img src='../images/features/cycle.svg' className='mb-3 mx-auto' alt='Shorter cycle 
 counts'></img>
 
