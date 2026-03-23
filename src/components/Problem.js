@@ -8,7 +8,7 @@ const Problem = () => {
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-10'>
                     <div>
                         <a href="#" className="flex flex-col items-center bg-neutral-primary-soft p-6 border-2 border-[#23AE31] rounded-[10px] shadow-xs md:flex-row md:max-w-xl ">
-                            <img className="object-cover w-full rounded-base h-auto md:h-[140] md:w-48 mb-4 md:mb-0" src="../images/problem/case.png" loading="lazy" alt="case" />
+                            <img className="object-cover w-full rounded-base xs:h-auto md:h-[140] md:w-48 mb-4 md:mb-0" src="../images/problem/case.png" loading="lazy" alt="case" />
                             <div className="flex flex-col justify-between md:p-4 leading-normal">
                                 <p className="mb-6 text-[18px] text-black">“Case vs. each” mismatches: wrong picks, short trucks, odd credits.</p>
                             </div>
