@@ -4,8 +4,8 @@ function Timeline() {
     return (
         <section className='bg-[#D3F8E0] py-12 overflow-x-hidden'>
             <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-                <h2 className='text-[30px] md:text-[50px] font-semibold text-center mb-3' data-aos="fade-up" data-aos-duration="1000">Where it goes wrong in real life</h2>
-                <p className='text-[18px] md:text-[30px] text-center'>Item: Sparkling Tea 500 ml</p>
+                <h2 className='text-[30px] md:text-[50px] font-semibold text-black text-center mb-3' data-aos="fade-up" data-aos-duration="1000">Where it goes wrong in real life</h2>
+                <p className='text-[18px] md:text-[30px] text-center text-black'>Item: Sparkling Tea 500 ml</p>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-x-15 mt-15 md:mt-20'>
 
                     <div>
@@ -41,7 +41,7 @@ function Timeline() {
                                         </>
                                     )}
 
-                                    <p className={`text-[16px] md:text-[24px] ${index === 0 ? "font-semibold" : ""}`}>
+                                    <p className={`text-[16px] md:text-[24px] text-black ${index === 0 ? "font-semibold" : ""}`}>
                                         {text}
                                     </p>
 
